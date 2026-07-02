@@ -1,0 +1,18 @@
+{
+  "name": "yonz-public-store",
+  "version": "9.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "dev": "vite --host 0.0.0.0",
+    "build": "mkdir -p dist && cp -r index.html firebase_web_yonz_aynsc_kyxzz_.js dist/ 2>/dev/null || cp -r index.html dist/",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
